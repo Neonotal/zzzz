@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 80px 20px;
+  min-height: 100vh;
+  background: url("F:\image/generated.svg") no-repeat center / 1100px auto, #6eadc0;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  color: #fff;
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carti {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  max-width: 730px;
+  margin: 0 auto;
+}
+
+.carta {
+  background: #fff;
+  border: 2px solid #6eadc0;
+  border-radius: 4px 4px 30px 4px;
+  padding: 30px;
+}
+
+.iconca {
+  margin-bottom: 15px;
+  color: #6eadc0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.carta h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 12px;
+  color: #1a1a1a;
+}
+
+.carta p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #666;
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  body {
+    background-size: 800px auto, auto;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 25px 15px 40px;
+    background-size: 500px auto, auto;
+  }
+  .carti {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  h1 {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  .carta {
+    padding: 25px 22px;
+  }
+  .iconca {
+    font-size: 40px;
+  }
+  .carta h3 {
+    font-size: 18px;
+  }
+  .carta p {
+    font-size: 14px;
+  }
+}
